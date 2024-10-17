@@ -19,7 +19,7 @@
     clientSecret: {{ data_pipeline_oee_client_secret }}
 
 - name: Run calculations once a day for 30 days history (Oslo)
-  cronExpression: "0 1 * * *"
+  cronExpression: "0 11 * * *"
   functionExternalId: oee_timeseries
   data:
     sites:
@@ -30,7 +30,7 @@
     clientSecret: {{ data_pipeline_oee_client_secret }}
 
 - name: Run calculations once a day for 30 days history (Nuremberg)
-  cronExpression: "1 1 * * *"
+  cronExpression: "1 11 * * *"
   functionExternalId: oee_timeseries
   data:
     sites:
@@ -41,7 +41,7 @@
     clientSecret: {{ data_pipeline_oee_client_secret }}
 
 - name: Run calculations once a day for 30 days history (Marseille)
-  cronExpression: "2 1 * * *"
+  cronExpression: "2 11 * * *"
   functionExternalId: oee_timeseries
   data:
     sites:
@@ -52,7 +52,7 @@
     clientSecret: {{ data_pipeline_oee_client_secret }}
 
 - name: Run calculations once a day for 30 days history (Houston)
-  cronExpression: "3 1 * * *"
+  cronExpression: "3 11 * * *"
   functionExternalId: oee_timeseries
   data:
     sites:
@@ -63,7 +63,7 @@
     clientSecret: {{ data_pipeline_oee_client_secret }}
 
 - name: Run calculations once a day for 30 days history (Sao Paulo)
-  cronExpression: "4 1 * * *"
+  cronExpression: "4 11 * * *"
   functionExternalId: oee_timeseries
   data:
     sites:
@@ -74,7 +74,7 @@
     clientSecret: {{ data_pipeline_oee_client_secret }}
 
 - name: Run calculations once a day for 30 days history (Kuala Lumpur)
-  cronExpression: "5 1 * * *"
+  cronExpression: "5 11 * * *"
   functionExternalId: oee_timeseries
   data:
     sites:
@@ -85,7 +85,7 @@
     clientSecret: {{ data_pipeline_oee_client_secret }}
 
 - name: Run calculations once a day for 30 days history (Chicago)
-  cronExpression: "6 1 * * *"
+  cronExpression: "6 11 * * *"
   functionExternalId: oee_timeseries
   data:
     sites:
@@ -96,7 +96,7 @@
     clientSecret: {{ data_pipeline_oee_client_secret }}
 
 - name: Run calculations once a day for 30 days history (Rotterdam)
-  cronExpression: "7 1 * * *"
+  cronExpression: "7 11 * * *"
   functionExternalId: oee_timeseries
   data:
     sites:
@@ -107,7 +107,7 @@
     clientSecret: {{ data_pipeline_oee_client_secret }}
 
 - name: Run calculations once a day for 30 days history (London)
-  cronExpression: "8 1 * * *"
+  cronExpression: "8 11 * * *"
   functionExternalId: oee_timeseries
   data:
     sites:

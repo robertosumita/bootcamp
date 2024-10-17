@@ -36,7 +36,7 @@
     backfill: True
     hours: 720
     sites:
-    - São Paulo
+    - Sao Paulo
   authentication:
     clientId: {{ icapi_extractors_client_id }}
     clientSecret: {{ icapi_extractors_client_secret }}
